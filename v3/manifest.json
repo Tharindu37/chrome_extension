@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Post Extractor",
+  "version": "1.0",
+  "description": "Extract images, text, and details from Twitter posts.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
